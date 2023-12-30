@@ -42,8 +42,8 @@ const Faq = ({ faqData }) => {
               src={boyImg}
               width={708}
               height={498}
-              alt="boy image"
-              title="boy image"
+              alt="Truck"
+              title="Truck"
             />
           </motion.div>
         </motion.div>

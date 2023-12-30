@@ -49,11 +49,14 @@ const boyAnim = {
 };
 
 const girlAnim = {
-  initial: { x: 900, opacity: 0 },
+  initial: {
+    x: -70,
+    opacity: 0,
+  },
   animate: {
-    x: 700,
+    x: 0,
     opacity: 1,
-    transition: { type: "spring", duration: 3 },
+    transition: { type: "tween", duration: 1.1 },
   },
 };
 

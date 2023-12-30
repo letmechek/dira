@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import {
   staggerContainer,
   girlAnim,
-  boyAnim,
+  fadeInLeft,
   heroTruckAnim,
   fadeInDown,
 } from "../variants";
@@ -56,15 +56,22 @@ const Hero = ({ headerData, heroData, navData }) => {
 
         {/* girl image */}
         <motion.div
-          variants={girlAnim}
-          className="hidden lg:flex absolute bottom-0"
+          variants={fadeInLeft}
+          className="hidden lg:flex absolute -bottom-[25%] -right-[30%] "
         >
-          <Image
+          {/* <Image
             src={girlImg}
             width={206}
             height={495}
             alt="girl image"
             title="girl image"
+          /> */}
+           <Image
+            src={girlImg}
+            width={811}
+            height={395}
+            alt="truck image"
+            title="truck image"
           />
         </motion.div>
 
@@ -83,7 +90,7 @@ const Hero = ({ headerData, heroData, navData }) => {
         </motion.div>
 
         {/* boy image */}
-        <motion.div
+        {/* <motion.div
           variants={boyAnim}
           className="hidden lg:flex absolute right-[380px] bottom-0 z-10"
         >
@@ -94,7 +101,7 @@ const Hero = ({ headerData, heroData, navData }) => {
             alt="boy image"
             title="boy image"
           />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </section>
   );

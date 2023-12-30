@@ -35,7 +35,7 @@ const heroData = {
   title: "Capacity to deliver",
   sceneImg: "/images/hero/scene.svg",
   boyImg: "/images/hero/boy.svg",
-  girlImg: "/images/hero/girl.svg",
+  girlImg: "/images/hero/reverse.png",
   truckImg: "/images/hero/truckbanner.png",
   btnText: "Get Started",
 };
