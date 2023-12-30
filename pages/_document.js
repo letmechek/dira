@@ -20,11 +20,12 @@ const Document = () => {
         
         <meta
           name="description"
-          content="Charles's simple project using Nextjs build animation effect Project by framer montion."
+          content="Dira Transport: Your Trusted Partner for Reliable Logistics Solutions. We specialize in efficient freight services across North America. Our experienced team, modern fleet, and commitment to excellence ensure seamless deliveries. Contact us for dependable transportation tailored to your unique needs.
+          "
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Framer Motion Project" />
+        <meta property="og:title" content="Dira Transport" />
         <meta
           property="og:description"
           content="Nextjs Project using framer montion"
@@ -33,10 +34,10 @@ const Document = () => {
           property="og:url"
           content="https://transportation-spa-project.vercel.app"
         />
-        <meta property="og:site_name" content="Framer Motion Project" />
+        <meta property="og:site_name" content="Dira Transport" />
         <meta
           property="og:image"
-          content="https://transportation-spa-project.vercel.app/screenshot.jpg"
+          content="https://dira.vercel.app/screenshot.jpg"
         />
         <meta name="keywords" content="nextjs,framer motion,animation" />
 
