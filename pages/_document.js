@@ -32,7 +32,7 @@ const Document = () => {
         />
         <meta
           property="og:url"
-          content="https://transportation-spa-project.vercel.app"
+          content="https://dira.vercel.app"
         />
         <meta property="og:site_name" content="Dira Transport" />
         <meta
@@ -42,14 +42,14 @@ const Document = () => {
         <meta name="keywords" content="nextjs,framer motion,animation" />
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Framer Motion Project" />
+        <meta name="twitter:title" content="Dira Transport" />
         <meta
           name="twitter:description"
-          content="Nextjs Project using framer montion"
+          content="Nextjs Project using framer motion"
         />
         <meta
           name="twitter:image"
-          content="https://transportation-spa-project.vercel.app/screenshot.jpg"
+          content="https://dira.vercel.app/screenshot.jpg"
         />
 
         <meta
@@ -59,11 +59,11 @@ const Document = () => {
 
         <link
           rel="canonical"
-          href="https://transportation-spa-project.vercel.app"
+          href="https://dira.vercel.app"
         />
         <link
           rel="alternate"
-          href="https://transportation-spa-project.vercel.app"
+          href="https://dira.vercel.app"
           hreflang="en-us"
         />
       </Head>
