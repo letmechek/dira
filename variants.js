@@ -67,6 +67,13 @@ const heroTruckAnim = {
     transition: { type: "spring", duration: 3 },
   },
 };
+const heroTruckAnim2 = {
+  initial: { x: 700 },
+  animate: {
+    x: 0,
+    transition: { type: "spring", duration: 3 },
+  },
+};
 
 const footerTruckAnim = {
   initial: { x: -700 },
@@ -137,4 +144,5 @@ export {
   fadeInDown,
   footerTruckAnim,
   heroTruckAnim,
+  heroTruckAnim2
 };

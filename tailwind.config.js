@@ -22,23 +22,34 @@ module.exports = {
     },
     extend: {
       colors: {
-        page: "#FEF8F5",
-        primary: "#402B2B",
-        accent: {
-          DEFAULT: "#EE4D47",
-          hover: "#DA423D",
-        },
-        tint: "#FDEDE8",
-        darkblue: "#0F264C",
-      },
-      dropShadow: {
-        primary: "0 20px 40px rgba(238, 77, 71, 0.1)",
-        secondary: "0px 30px 40px rgba(244, 125, 103, 0.2)",
-        tertiary: "0 20px 40px rgba(32, 56, 100, 0.3);",
+      primary: "#254357", // Deep blue primary color
+  accent: {
+    DEFAULT: "#FF8C00", // Complementary orange accent
+    hover: "#E07D00", // Darker shade for hover effect
+  },
+  tint: "#FFF5EB", // Light cream tint
+  darkblue: "#001F3F", // Dark navy blue
+},
+dropShadow: {
+  primary: "0 20px 40px rgba(37, 67, 87, 0.1)", // Shadow for the deep blue
+  secondary: "0px 30px 40px rgba(244, 125, 103, 0.2)", // Shadow for secondary color
+  tertiary: "0 20px 40px rgba(0, 31, 63, 0.3)",
+// primary: "#1A237E", // Dark blue primary color
+//   accent: {
+//     DEFAULT: "#FF5722", // Deep orange accent color
+//     hover: "#E64A19", // Darker shade for hover effect
+//   },
+//   tint: "#FAFAFA", // Off-white tint
+//   darkblue: "#121212", // Dark grayish background
+// },
+// dropShadow: {
+//   primary: "0 20px 40px rgba(26, 35, 126, 0.1)", // Shadow for dark blue
+//   secondary: "0px 30px 40px rgba(255, 87, 34, 0.2)", // Shadow for deep orange accent
+//   tertiary: "0 20px 40px rgba(18, 18, 18, 0.3)",
       },
       backgroundImage: {
         // hero: "url('/images/hero/scene.svg')",
-         hero: "url('/images/truckk.jpeg')",
+         hero: "url('/images/truck.png')",
         faq: "url('/images/faq/bg.svg')",
         footer: "url('/images/footer/bg.svg')",
       },
