@@ -20,8 +20,8 @@ import Copyright from "../components/Copyright";
 // } from "../data.json";
 
 const headerData = {
-  logoImgV1: "/images/header/projectv1.svg",
-  logoImgV2: "/images/header/projectv2.svg",
+  logoImgV1: "/images/ng-logo.png",
+  logoImgV2: "/images/ng-logo.png",
   btnText: "Contact us",
 };
 
@@ -32,11 +32,11 @@ const navData = [
 ];
 
 const heroData = {
-  title: "Your awesome traffic permit consultant.",
+  title: "Capacity to deliver",
   sceneImg: "/images/hero/scene.svg",
   boyImg: "/images/hero/boy.svg",
   girlImg: "/images/hero/girl.svg",
-  truckImg: "/images/hero/truck.svg",
+  truckImg: "/images/hero/truckbanner.png",
   btnText: "Get Started",
 };
 
@@ -45,20 +45,20 @@ const aboutData = {
   subtitle:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-  boyImg: "/images/about/boy.svg",
+  boyImg: "/images/about/about.png",
 };
 
 const howData = {
   title: "How to apply",
   subtitle:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  girlImg: "/images/how/girl.svg",
+  girlImg: "/images/how/apply.png",
 };
 
 const faqData = {
   pretitle: "faq",
   title: "Questions and Answers on Professional Traffic Permits:",
-  boyImg: "/images/faq/boy.svg",
+  boyImg: "/images/faq/truck.png",
   accordions: [
     {
       question: "What is a professional traffic permit?",
@@ -169,10 +169,10 @@ const testimonialData = {
 };
 
 const footerData = {
-  truckImg: "/images/footer/truck.svg",
+  truckImg: "/images/hero/truckbanner.png",
   hillImg: "/images/footer/hill.svg",
   text: "We provide traffic management consultants so you get started quickly, contact us for a quote today!",
-  logo: "/images/footer/projectv1.svg",
+  logo: "/images/ng-logo.png",
   links: [
     { name: "about", href: "/" },
     { name: "how to", href: "/" },

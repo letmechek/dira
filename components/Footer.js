@@ -98,8 +98,8 @@ const Footer = ({ footerData }) => {
               <a>
                 <Image
                   src={logo}
-                  width={170}
-                  height={41}
+                  width={80}
+                  height={80}
                   alt="logo image"
                   title="logo image"
                 />
