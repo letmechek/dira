@@ -26,12 +26,12 @@ const Testimonials = ({ testimonialData }) => {
           className="flex flex-col lg:flex-row"
         >
           {/* text */}
-          <motion.div variants={fadeInUp} className="lg:w-[40%]">
+          <div variants={fadeInUp} className="lg:w-[40%]">
             {/* pretitle */}
             <h3 className="h3">{pretitle}</h3>
             {/* title */}
             <h2 className="h2 mb-6">{title}</h2>
-          </motion.div>
+          </div>
           {/* slider */}
           <motion.div
             variants={fadeInUp}

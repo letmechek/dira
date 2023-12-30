@@ -24,12 +24,12 @@ const How = ({ howData }) => {
             title="truck"/>
           </motion.div>
           {/* text */}
-          <motion.div variants={fadeInLeft} className="flex-1 flex justify-end">
+          <div variants={fadeInLeft} className="flex-1 flex justify-end">
             <div className="max-w-[455px]">
               <h3 className="h3">{title}</h3>
               <p className="lead">{subtitle}</p>
             </div>
-          </motion.div>
+          </div>
         </motion.div>
       </div>
     </section>

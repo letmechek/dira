@@ -20,7 +20,7 @@ const About = ({ aboutData }) => {
           className="flex flex-col lg:flex-row gap-x-[20px]"
         >
           {/* text */}
-          <motion.div variants={fadeInDown} className="flex-1 mt-[74px]">
+          <div variants={fadeInDown} className="flex-1 mt-[74px]">
             <h3 className="h3">{title}</h3>
             <p className="lead max-w-[470px] mb-[70px]">{subtitle}</p>
             {/* text box */}
@@ -29,7 +29,7 @@ const About = ({ aboutData }) => {
                 {text}
               </p>
             </div>
-          </motion.div>
+          </div>
           {/* image */}
           <motion.div variants={fadeInUp} className="flex-1">
             <Image

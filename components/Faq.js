@@ -29,10 +29,10 @@ const Faq = ({ faqData }) => {
           className="flex flex-col lg:flex-row justify-center lg:justify-start items-center relative pt-8 pb-16 lg:pt-16 lg:pb-32"
         >
           {/* text */}
-          <motion.div variants={fadeInRight} className="lg:w-[45%]">
+          <div variants={fadeInRight} className="lg:w-[45%]">
             <h3 className="h3">{pretitle}</h3>
             <h2 className="h2 mb-6 lg:mb-12">{title}</h2>
-          </motion.div>
+          </div>
           {/* image */}
           <motion.div
             variants={fadeInLeft}
