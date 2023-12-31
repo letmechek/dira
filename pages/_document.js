@@ -28,7 +28,8 @@ const Document = () => {
         <meta property="og:title" content="Dira Transport" />
         <meta
           property="og:description"
-          content="Nextjs Project using framer montion"
+          content="Dira Transport: Your Trusted Partner for Reliable Logistics Solutions. We specialize in efficient freight services across North America. Our experienced team, modern fleet, and commitment to excellence ensure seamless deliveries. Contact us for dependable transportation tailored to your unique needs.
+          "
         />
         <meta
           property="og:url"
@@ -45,7 +46,8 @@ const Document = () => {
         <meta name="twitter:title" content="Dira Transport" />
         <meta
           name="twitter:description"
-          content="Nextjs Project using framer motion"
+          content="Dira Transport: Your Trusted Partner for Reliable Logistics Solutions. We specialize in efficient freight services across North America. Our experienced team, modern fleet, and commitment to excellence ensure seamless deliveries. Contact us for dependable transportation tailored to your unique needs.
+          "
         />
         <meta
           name="twitter:image"
@@ -53,8 +55,8 @@ const Document = () => {
         />
 
         <meta
-          name="google-site-verification"
-          content="eP82dEE--Mtf-ypVN9QO-B9kd-C5uLVNT_Ce_bdha24"
+          // name="google-site-verification"
+          // content="eP82dEE--Mtf-ypVN9QO-B9kd-C5uLVNT_Ce_bdha24"
         />
 
         <link

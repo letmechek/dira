@@ -177,9 +177,9 @@ const footerData = {
   text: "We provide traffic management consultants so you get started quickly, contact us for a quote today!",
   logo: "/images/ng-logo.png",
   links: [
-    { name: "about", href: "/" },
-    { name: "how to", href: "/" },
-    { name: "faqs", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Faqs", href: "/faqs" },
   ],
   form: {
     labelName: "Name",

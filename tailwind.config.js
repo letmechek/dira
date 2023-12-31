@@ -22,33 +22,20 @@ module.exports = {
     },
     extend: {
       colors: {
-      primary: "#254357", // Deep blue primary color
+      primary: "#254357", 
   accent: {
-    DEFAULT: "#FF8C00", // Complementary orange accent
-    hover: "#E07D00", // Darker shade for hover effect
+    DEFAULT: "#FF8C00", 
+    hover: "#E07D00", 
   },
-  tint: "#FFF5EB", // Light cream tint
-  darkblue: "#001F3F", // Dark navy blue
+  tint: "#FFF5EB", 
+  darkblue: "#001F3F", 
 },
 dropShadow: {
-  primary: "0 20px 40px rgba(37, 67, 87, 0.1)", // Shadow for the deep blue
-  secondary: "0px 30px 40px rgba(244, 125, 103, 0.2)", // Shadow for secondary color
+  primary: "0 20px 40px rgba(37, 67, 87, 0.1)", 
+  secondary: "0px 30px 40px rgba(244, 125, 103, 0.2)", 
   tertiary: "0 20px 40px rgba(0, 31, 63, 0.3)",
-// primary: "#1A237E", // Dark blue primary color
-//   accent: {
-//     DEFAULT: "#FF5722", // Deep orange accent color
-//     hover: "#E64A19", // Darker shade for hover effect
-//   },
-//   tint: "#FAFAFA", // Off-white tint
-//   darkblue: "#121212", // Dark grayish background
-// },
-// dropShadow: {
-//   primary: "0 20px 40px rgba(26, 35, 126, 0.1)", // Shadow for dark blue
-//   secondary: "0px 30px 40px rgba(255, 87, 34, 0.2)", // Shadow for deep orange accent
-//   tertiary: "0 20px 40px rgba(18, 18, 18, 0.3)",
       },
       backgroundImage: {
-        // hero: "url('/images/hero/scene.svg')",
          hero: "url('/images/truck.png')",
         faq: "url('/images/faq/bg.svg')",
         footer: "url('/images/footer/bg.svg')",
