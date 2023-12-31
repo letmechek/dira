@@ -23,6 +23,7 @@ const headerData = {
   logoImgV1: "/images/ng-logo.png",
   logoImgV2: "/images/ng-logo.png",
   btnText: "Contact us",
+  btnHref: "/contact",
 };
 
 const navData = [
@@ -207,8 +208,6 @@ const Home = ({
       <How howData={howData} />
       <Faq faqData={faqData} />
       <Testimonials testimonialData={testimonialData} />
-      <Footer footerData={footerData} />
-      <Copyright />
     </div>
   );
 };

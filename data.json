@@ -2,7 +2,8 @@
   "headerData": {
     "logoImgV1": "/images/header/projectv1.svg",
     "logoImgV2": "/images/header/projectv2.svg",
-    "btnText": "Contact us"
+    "btnText": "Contact us",
+    "btnHref": "/contact"
   },
 
   "navData": [

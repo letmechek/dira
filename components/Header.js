@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from 'next/router';
 
 // import components
 import Nav from "../components/Nav";
@@ -22,6 +23,13 @@ const Header = ({ headerData, navData }) => {
       window.scrollY > 80 ? setHeader(true) : setHeader(false);
     });
   });
+
+  const router = useRouter();
+
+  const handleButtonClick = () => {
+    // Navigate to the contact page
+    router.push('/contact');
+  };
 
   return (
     <header
@@ -48,7 +56,7 @@ const Header = ({ headerData, navData }) => {
         {/* nav */}
         <Nav navData={navData} header={header} />
         {/* btn */}
-        <button className="btn">{btnText}</button>
+        <button className="btn"onClick={handleButtonClick}>{btnText}</button>
       </div>
 
       {/* nav menu btn- hide on large screens */}
