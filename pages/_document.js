@@ -38,7 +38,7 @@ const Document = () => {
         <meta property="og:site_name" content="Dira Transport" />
         <meta
           property="og:image"
-          content="https://dira.vercel.app/screenshot.jpg"
+          content="https://dira.vercel.app/screenshot.png"
         />
         <meta name="keywords" content="nextjs,framer motion,animation" />
 
@@ -51,7 +51,7 @@ const Document = () => {
         />
         <meta
           name="twitter:image"
-          content="https://dira.vercel.app/screenshot.jpg"
+          content="https://dira.vercel.app/screenshot.png"
         />
 
         <meta
