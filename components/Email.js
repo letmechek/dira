@@ -61,7 +61,7 @@ return (
             Message
           </label>
           <textarea
-            className="h-32 w-full px-4 outline-none ring-1 ring-accent/50 focus:ring-2 focus:ring-accent focus:drop-shadow-primary text-[18px] font-bold placeholder:text-[18px] placeholder:font-light placeholder:text-primary"
+            className="h-32 w-full px-4 pt-2 outline-none ring-1 ring-accent/50 focus:ring-2 focus:ring-accent focus:drop-shadow-primary text-[18px] font-bold placeholder:text-[18px] placeholder:font-light placeholder:text-primary"
             placeholder="How can we assist you?"
             id="message"
             name="message"

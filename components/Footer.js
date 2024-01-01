@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import React, { useRef, useState } from 'react';
+import emailjs from 'emailjs-com';
 
 // import motion
 import { motion } from "framer-motion";
@@ -10,7 +12,28 @@ import { CgArrowLongRight } from "react-icons/cg";
 
 const Footer = ({ footerData }) => {
   // destructure footer data
-  const { truckImg, hillImg, text, logo, links, form } = footerData;
+  const { truckImg, hillImg, text, logo, links } = footerData;
+  const form = useRef();
+  let isSent = false;
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_6uq9fih', 'template_m2fs4vm', form.current, 'hcRTZV5UUvWveGoo4')
+    .then((result) => {
+      console.log(result.text);
+      isSent = true;
+      form.current.reset();
+      forceUpdate(); // Trigger re-render to display the success message
+    }, (error) => {
+      console.log(error.text);
+    });
+};
+
+// Function to force re-render
+const [, updateState] = React.useState();
+const forceUpdate = React.useCallback(() => updateState({}), []);
+
   return (
     <footer className="bg-darkblue lg:bg-transparent lg:bg-footer lg:bg-no-repeat lg:bg-left-bottom relative lg:min-h-[738px] pt-12 lg:pt-0">
       <motion.div
@@ -56,33 +79,35 @@ const Footer = ({ footerData }) => {
             </p>
           </div>
           {/* form */}
-          <form className="w-full max-w-[550px] bg-white flex-1 rounded-[10px] lg:order-2 flex flex-col px-[35px] lg:px-[75px] py-[25px] lg:py-[52px] space-y-[40px] drop-shadow-primary">
+          <form ref={form} onSubmit={sendEmail} className="w-full max-w-[550px] bg-white flex-1 rounded-[10px] lg:order-2 flex flex-col px-[35px] lg:px-[75px] py-[25px] lg:py-[52px] space-y-[40px] drop-shadow-primary">
             {/* name input */}
             <div className="flex flex-col">
-              <label className="font-light mb-[10px]" htmlFor="name">
+              <label className="font-light mb-[10px]" htmlFor="from_name">
                 {form.labelName}
               </label>
               <input
                 className="input"
                 type="text"
-                id="name"
-                placeholder={form.placeholderName}
+                id="from_name"
+                name="from_name"
+                placeholder='Name'
               />
             </div>
             {/* email input */}
             <div className="flex flex-col">
-              <label className="font-light mb-[10px]" htmlFor="email">
+              <label className="font-light mb-[10px]" htmlFor="from_email">
                 {form.labelEmail}
               </label>
               <input
                 className="input"
                 type="email"
-                id="email"
-                placeholder={form.placeholderEmail}
+                id="from_email"
+                name="from_email"
+                placeholder='Email'
               />
             </div>
             <button className="btn self-start hover:bg-accent-hover transition">
-              {form.btnText}
+            Request A Quote
               <CgArrowLongRight className="text-[30px]" />
             </button>
           </form>

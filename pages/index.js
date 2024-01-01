@@ -26,6 +26,7 @@ const headerData = {
 };
 
 const navData = [
+  { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "FAQs", href: "/faqs" },
