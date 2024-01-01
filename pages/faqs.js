@@ -35,16 +35,16 @@ const faqData = {
         answer:
           "We operate across North America, ensuring extensive coverage for your transportation needs. From major cities to remote locations, Dira Transport is your trusted partner for seamless deliveries.",
       },
-      {
-        question: "Is Dira Transport equipped for handling specialized cargo?",
-        answer:
-          "Yes, Dira Transport is well-equipped to handle a wide range of specialized cargo, including hazardous materials, oversized loads, and temperature-sensitive goods. Our experienced team ensures the safe and secure transportation of your unique cargo.",
-      },
-      {
-        question: "What technology does Dira Transport use for shipment tracking?",
-        answer:
-          "We utilize state-of-the-art tracking technology to provide real-time updates on your shipments. Our advanced tracking system offers transparency and visibility throughout the transportation process, ensuring you stay informed about the status of your goods.",
-      },
+    //   {
+    //     question: "Is Dira Transport equipped for handling specialized cargo?",
+    //     answer:
+    //       "Yes, Dira Transport is well-equipped to handle a wide range of specialized cargo, including hazardous materials, oversized loads, and temperature-sensitive goods. Our experienced team ensures the safe and secure transportation of your unique cargo.",
+    //   },
+    //   {
+    //     question: "What technology does Dira Transport use for shipment tracking?",
+    //     answer:
+    //       "We utilize state-of-the-art tracking technology to provide real-time updates on your shipments. Our advanced tracking system offers transparency and visibility throughout the transportation process, ensuring you stay informed about the status of your goods.",
+    //   },
       {
         question: "How do I request a quote for transportation services?",
         answer:
@@ -60,11 +60,11 @@ const faqData = {
         answer:
           "Yes, Dira Transport offers expedited shipping services for time-sensitive shipments. Our expedited services are designed to meet tight deadlines and ensure that your goods reach their destination quickly and efficiently.",
       },
-      {
-        question: "What sets Dira Transport apart from other transportation companies?",
-        answer:
-          "Dira Transport stands out for its commitment to excellence, reliability, and customer satisfaction. Our modern fleet, experienced team, and dedication to meeting and exceeding industry standards make us a trusted partner for all your transportation needs.",
-      },
+    //   {
+    //     question: "What sets Dira Transport apart from other transportation companies?",
+    //     answer:
+    //       "Dira Transport stands out for its commitment to excellence, reliability, and customer satisfaction. Our modern fleet, experienced team, and dedication to meeting and exceeding industry standards make us a trusted partner for all your transportation needs.",
+    //   },
       {
         question: "Are there volume discounts available for regular shipments?",
         answer:
@@ -80,15 +80,15 @@ const faqData = {
         answer:
           "We value your feedback. If you encounter any issues or have suggestions for improvement, please contact our customer support team. Your input is important to us, and we are committed to addressing any concerns promptly.",
       },
-      {
-        question: "Does Dira Transport provide insurance coverage for shipments?",
-        answer:
-          "Yes, Dira Transport offers insurance coverage options for shipments. Our team can provide details on available insurance plans to ensure that your cargo is protected during transit. Contact us to discuss insurance options tailored to your specific needs.",
-      },
+    //   {
+    //     question: "Does Dira Transport provide insurance coverage for shipments?",
+    //     answer:
+    //       "Yes, Dira Transport offers insurance coverage options for shipments. Our team can provide details on available insurance plans to ensure that your cargo is protected during transit. Contact us to discuss insurance options tailored to your specific needs.",
+    //   },
     ],
   };
   return (
-    <div className="overflow-hidden max-w-[1600px] mx-auto bg-page pt-22">
+    <div className=" pt-20">
     <Faq faqData={faqData} />
      </div>
   )

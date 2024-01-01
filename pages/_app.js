@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
   const footerData = {
     truckImg: "/images/hero/truckbanner.png",
     hillImg: "/images/footer/hill.svg",
-    text: "We provide traffic management consultants so you get started quickly, contact us for a quote today!",
+    text: "Your trusted partner for seamless logistics. Unleash efficiency, choose reliability. Get a quote today!",
     logo: "/images/ng-logo.png",
     links: [
       { name: "About", href: "/about" },
@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
       placeholderName: "Your name",
       labelEmail: "Email address",
       placeholderEmail: "Your email adddress",
-      btnText: "Get Started",
+      btnText: "Get A Quote",
     },
   };
   

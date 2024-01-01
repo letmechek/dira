@@ -38,7 +38,7 @@ const heroData = {
   boyImg: "/images/hero/boy.svg",
   girlImg: "/images/hero/reverse.png",
   truckImg: "/images/hero/truckbanner.png",
-  btnText: "Get Started",
+  btnText: "Get A Quote",
 };
 
 const aboutData = {
@@ -77,16 +77,6 @@ const faqData = {
         "We operate across North America, ensuring extensive coverage for your transportation needs. From major cities to remote locations, Dira Transport is your trusted partner for seamless deliveries.",
     },
     {
-      question: "Is Dira Transport equipped for handling specialized cargo?",
-      answer:
-        "Yes, Dira Transport is well-equipped to handle a wide range of specialized cargo, including hazardous materials, oversized loads, and temperature-sensitive goods. Our experienced team ensures the safe and secure transportation of your unique cargo.",
-    },
-    {
-      question: "What technology does Dira Transport use for shipment tracking?",
-      answer:
-        "We utilize state-of-the-art tracking technology to provide real-time updates on your shipments. Our advanced tracking system offers transparency and visibility throughout the transportation process, ensuring you stay informed about the status of your goods.",
-    },
-    {
       question: "How do I request a quote for transportation services?",
       answer:
         "Requesting a quote is easy. Simply visit our website and fill out the online quote request form. Our team will promptly review your information and provide you with a customized quote tailored to your specific transportation needs.",
@@ -101,11 +91,11 @@ const faqData = {
       answer:
         "Yes, Dira Transport offers expedited shipping services for time-sensitive shipments. Our expedited services are designed to meet tight deadlines and ensure that your goods reach their destination quickly and efficiently.",
     },
-    {
-      question: "What sets Dira Transport apart from other transportation companies?",
-      answer:
-        "Dira Transport stands out for its commitment to excellence, reliability, and customer satisfaction. Our modern fleet, experienced team, and dedication to meeting and exceeding industry standards make us a trusted partner for all your transportation needs.",
-    },
+  //   {
+  //     question: "What sets Dira Transport apart from other transportation companies?",
+  //     answer:
+  //       "Dira Transport stands out for its commitment to excellence, reliability, and customer satisfaction. Our modern fleet, experienced team, and dedication to meeting and exceeding industry standards make us a trusted partner for all your transportation needs.",
+  //   },
     {
       question: "Are there volume discounts available for regular shipments?",
       answer:
@@ -120,11 +110,6 @@ const faqData = {
       question: "How do I report a problem or provide feedback?",
       answer:
         "We value your feedback. If you encounter any issues or have suggestions for improvement, please contact our customer support team. Your input is important to us, and we are committed to addressing any concerns promptly.",
-    },
-    {
-      question: "Does Dira Transport provide insurance coverage for shipments?",
-      answer:
-        "Yes, Dira Transport offers insurance coverage options for shipments. Our team can provide details on available insurance plans to ensure that your cargo is protected during transit. Contact us to discuss insurance options tailored to your specific needs.",
     },
   ],
 };
@@ -172,24 +157,24 @@ const testimonialData = {
   ],
 };
 
-const footerData = {
-  truckImg: "/images/hero/truckbanner.png",
-  hillImg: "/images/footer/hill.svg",
-  text: "We provide traffic management consultants so you get started quickly, contact us for a quote today!",
-  logo: "/images/ng-logo.png",
-  links: [
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Faqs", href: "/faqs" },
-  ],
-  form: {
-    labelName: "Name",
-    placeholderName: "Your name",
-    labelEmail: "Email address",
-    placeholderEmail: "Your email adddress",
-    btnText: "Get Started",
-  },
-};
+// const footerData = {
+//   truckImg: "/images/hero/truckbanner.png",
+//   hillImg: "/images/footer/hill.svg",
+//   text: "We provide traffic management consultants so you get started quickly, contact us for a quote today!",
+//   logo: "/images/ng-logo.png",
+//   links: [
+//     { name: "About", href: "/about" },
+//     { name: "Services", href: "/services" },
+//     { name: "Faqs", href: "/faqs" },
+//   ],
+//   form: {
+//     labelName: "Name",
+//     placeholderName: "Your name",
+//     labelEmail: "Email address",
+//     placeholderEmail: "Your email adddress",
+//     btnText: "Get A Quote",
+//   },
+// };
 
 const Home = ({
   headerData,
@@ -199,7 +184,7 @@ const Home = ({
   aboutData,
   howData,
   testimonialData,
-  footerData,
+  
 }) => {
   return (
     <div className="overflow-hidden max-w-[1600px] mx-auto bg-page">
@@ -223,7 +208,7 @@ export const getStaticProps = async () => {
       aboutData,
       howData,
       testimonialData,
-      footerData,
+     
     },
   };
 };

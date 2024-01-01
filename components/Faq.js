@@ -48,7 +48,7 @@ const Faq = ({ faqData }) => {
           </motion.div>
         </motion.div>
         {/* accordions list */}
-        <motion.div
+        <div
           variants={staggerAccordionContainer}
           initial="initial"
           whileInView={"animate"}
@@ -58,7 +58,7 @@ const Faq = ({ faqData }) => {
           {accordions.map((accordion, idx) => {
             return <Accordion accordion={accordion} key={idx} />;
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
