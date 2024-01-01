@@ -4,8 +4,7 @@ import About from "../components/About";
 import How from "../components/How";
 import Faq from "../components/Faq";
 import Testimonials from "../components/Testimonials";
-import Footer from "../components/Footer";
-import Copyright from "../components/Copyright";
+
 
 // import data
 // import {
@@ -91,11 +90,6 @@ const faqData = {
       answer:
         "Yes, Dira Transport offers expedited shipping services for time-sensitive shipments. Our expedited services are designed to meet tight deadlines and ensure that your goods reach their destination quickly and efficiently.",
     },
-  //   {
-  //     question: "What sets Dira Transport apart from other transportation companies?",
-  //     answer:
-  //       "Dira Transport stands out for its commitment to excellence, reliability, and customer satisfaction. Our modern fleet, experienced team, and dedication to meeting and exceeding industry standards make us a trusted partner for all your transportation needs.",
-  //   },
     {
       question: "Are there volume discounts available for regular shipments?",
       answer:
