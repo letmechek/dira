@@ -104,6 +104,7 @@ const forceUpdate = React.useCallback(() => updateState({}), []);
                 id="from_email"
                 name="from_email"
                 placeholder='Email'
+                required
               />
             </div>
             <button className="btn self-start hover:bg-accent-hover transition">
